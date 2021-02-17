@@ -34,7 +34,7 @@ export default function Home() {
           <a href={link.url}>
             <div 
               key={link.name} 
-              className="bg-green-400 rounded-md border-2 border-green-400 hover:bg-white hover:text-green-400 h-16 place-items-center justify-center flex">
+              className="bg-green-400 rounded-md border-2 border-green-400 hover:bg-white hover:text-green-400 duration-200 h-16 place-items-center justify-center flex">
                 <p className="font-semibold">
                   {link.name}
                 </p>
