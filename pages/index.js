@@ -2,11 +2,11 @@ import Head from 'next/head'
 import Image from 'next/image'
 
 const links = [
-  {name: "Site 1", url:"https://localhost:3000"},
-  {name: "Site 2", url:"https://localhost:3000"},
-  {name: "Site 3", url:"https://localhost:3000"},
-  {name: "Site 4", url:"https://localhost:3000"},
-  {name: "Site 5", url:"https://localhost:3000"},
+  {name: "Site 1", url:"/"},
+  {name: "Site 2", url:"/"},
+  {name: "Site 3", url:"/"},
+  {name: "Site 4", url:"/"},
+  {name: "Site 5", url:"/"},
 ]
 
 export default function Home() {
