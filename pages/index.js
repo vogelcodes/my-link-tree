@@ -19,7 +19,7 @@ export default function Home() {
 
       <main className="flex flex-col w-full max-w-3xl flex-1 px-2 text-center">
         <div className='pb-4 flex flex-col items-center'>
-          <img className="w-32"src="/logo.png" alt="logo"></img>
+          <img className="w-32 rounded-full"src="/logo.png" alt="logo"></img>
           <p className="mt-3 font-bold text-base">
             @vogelcodes
           </p>
