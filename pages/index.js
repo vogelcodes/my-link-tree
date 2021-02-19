@@ -7,6 +7,7 @@ const links = [
   {name: "YouTube", url:"/"},
   {name: "Curso de Programação", url:"/"},
   {name: "Twitter", url:"/"},
+  {name: "Twitter2", url:"/"},
 ]
 
 export default function Home() {
