@@ -1,16 +1,40 @@
 import Head from 'next/head'
-import Image from 'next/image'
+import { useState } from 'react';
+import { connectToDatabase } from '../util/mongodb'
 
 const links = [
   {name: "Pinterest", url:"/"},
   {name: "Blog", url:"/"},
   {name: "YouTube", url:"/"},
-  {name: "Curso de Programação", url:"/"},
-  {name: "Twitter", url:"/"},
-  {name: "Twitter2", url:"/"},
-]
+  {name: "Curso de Programação", url:"/"}]
 
-export default function Home() {
+export default function Home({isConnected}) {
+  const contentType = 'application/json'
+  const [email, setEmail] = useState('')
+  const [message, setMessage] = useState(' ')
+
+  async function handleSubmit(event) {
+    event.preventDefault();
+    try {
+      const res = await fetch('/api/subscribe', {
+        method: 'POST',
+        headers: {
+          Accept: contentType,
+          'Content-Type': contentType
+        },
+        body: JSON.stringify({email})
+      })
+      if (!res.ok) {
+        throw new Error(res.status)
+      }
+      setMessage('Cadastrado '+email)
+      console.log(email)
+    } catch (error) {
+      setMessage('Erro')
+    }
+  }
+
+  
   return (
     <div className="flex flex-col items-center min-h-screen py-2">
       <Head>
@@ -24,13 +48,22 @@ export default function Home() {
           <p className="mt-3 font-bold text-base">
             @vogelcodes
           </p>
+          <p className="pb-4">
+            Cadastre-se para receber nossas atualizações:
+          </p>
+          <form onSubmit={handleSubmit} className="flex gap-2">
+            <input onChange={e => setEmail(e.target.value)} type="email" required="true" className="pl-2 border-2 rounded-md border-green-400" placeholder="Seu e-mail">
+            </input>
+            <button className="bg-green-400 rounded-md border-2 border-green-400 hover:bg-white text-white hover:text-green-400 duration-200 h-12 place-items-center justify-center w-36" type="submit"> Cadastre-se</button>
+          </form>
+          <p>{message}</p>
       </div>
 
         <div className="flex  text-white flex-col w-full space-y-4 mx-auto my-4 justify-between">
           {links.map(link=> 
-          <a href={link.url}>
+          <a href={link.url} key={link.name}>
             <div 
-              key={link.name} 
+               
               className="bg-green-400 rounded-md border-2 border-green-400 hover:bg-white hover:text-green-400 duration-200 h-16 place-items-center justify-center flex">
                 <p className="font-semibold">
                   {link.name}
@@ -45,4 +78,13 @@ export default function Home() {
       </footer>
     </div>
   )
+}
+
+export async function getServerSideProps(context) {
+  const { client, db } = await connectToDatabase()
+
+  const isConnected = await client.isConnected()
+  return {
+    props: { isConnected },
+  }
 }
