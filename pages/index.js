@@ -1,6 +1,5 @@
 import Head from 'next/head'
 import { useState } from 'react';
-import { connectToDatabase } from '../util/mongodb'
 
 const links = [
   {name: "Pinterest", url:"/"},
@@ -8,10 +7,10 @@ const links = [
   {name: "YouTube", url:"/"},
   {name: "Curso de Programação", url:"/"}]
 
-export default function Home({isConnected}) {
+export default function Home() {
   const contentType = 'application/json'
   const [email, setEmail] = useState('')
-  const [message, setMessage] = useState(' ')
+  const [message, setMessage] = useState('')
 
   async function handleSubmit(event) {
     event.preventDefault();
@@ -52,7 +51,7 @@ export default function Home({isConnected}) {
             Cadastre-se para receber nossas atualizações:
           </p>
           <form onSubmit={handleSubmit} className="flex gap-2">
-            <input onChange={e => setEmail(e.target.value)} type="email" required="true" className="pl-2 border-2 rounded-md border-green-400" placeholder="Seu e-mail">
+            <input onChange={e => setEmail(e.target.value)} type="email" required={true} className="pl-2 border-2 rounded-md border-green-400" placeholder="Seu e-mail">
             </input>
             <button className="bg-green-400 rounded-md border-2 border-green-400 hover:bg-white text-white hover:text-green-400 duration-200 h-12 place-items-center justify-center w-36" type="submit"> Cadastre-se</button>
           </form>
@@ -80,11 +79,3 @@ export default function Home({isConnected}) {
   )
 }
 
-export async function getServerSideProps(context) {
-  const { client, db } = await connectToDatabase()
-
-  const isConnected = await client.isConnected()
-  return {
-    props: { isConnected },
-  }
-}
