@@ -14,6 +14,7 @@ export default function Home() {
 
   async function handleSubmit(event) {
     event.preventDefault();
+    setMessage('Enviando...')
     try {
       const res = await fetch('/api/subscribe', {
         method: 'POST',
