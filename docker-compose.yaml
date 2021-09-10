@@ -1,0 +1,21 @@
+version: '3'
+services: 
+  nextjs:
+    container_name: link-tree
+    build: 
+      context: ./
+      dockerfile: Dockerfile.dev
+    ports: 
+      - 8081:3000
+    volumes: 
+      - ./:/app
+    networks: 
+      - nextjs
+  
+networks: 
+  nextjs:
+    driver: bridge
+
+    
+
+        
