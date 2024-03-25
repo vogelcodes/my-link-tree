@@ -42,6 +42,7 @@ const links = [
 ];
 
 export default function Home() {
+  let searchParams = useSearchParams();
   return (
     <div className="flex flex-col items-center min-h-screen py-2">
       <Head>
@@ -66,7 +67,12 @@ export default function Home() {
 
         <div className="flex  text-white flex-col w-full space-y-4 mx-auto my-4 justify-between">
           {links.map((link, i) => (
-            <a href={link.url + "&" + useSearchParams()} target="_blank">
+            <a
+              href={`${link.url}${
+                searchParams != "" ? `&${searchParams}` : ""
+              }`}
+              target="_blank"
+            >
               <div
                 key={link.name}
                 className="bg-blue rounded-md px-2 py-10 border-2 border-green text-cream duration-200 h-16 place-items-center justify-between flex"
