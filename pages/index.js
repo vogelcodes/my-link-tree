@@ -10,22 +10,22 @@ const links = [
   },
   {
     name: "Aula Gratuita 👇<br/>LactoFlow - Aumente a sua produção de leite materno",
-    url: "https://pv.lactoflow.com.br/?utm_source=bio",
+    url: "https://pv.lactoflow.com.br/?referrer=links",
     img: "/links/2.webp",
   },
   {
     name: "Workshop - A Amamentação começa na Gestação",
-    url: "https://go.hotmart.com/Y89675102O?dp=1&utm_source=bio",
+    url: "https://go.hotmart.com/Y89675102O?dp=1&referrer=links",
     img: "/links/3.webp",
   },
   {
     name: "E-book Guia de Retorno ao Trabalho SEM Desmame",
-    url: "https://go.hotmart.com/B89175649F?dp=1&utm_source=bio",
+    url: "https://go.hotmart.com/B89175649F?dp=1&referrer=links",
     img: "/links/4.webp",
   },
   {
     name: "Workshop - Desmame Gentil: Toda Amamentação tem seu Fim",
-    url: "https://hotmart.com/pt-br/marketplace/produtos/workshop-toda-amamentacao-tem-seu-fim/C89898767H?utm_source=bio",
+    url: "https://hotmart.com/pt-br/marketplace/produtos/workshop-toda-amamentacao-tem-seu-fim/C89898767H?referrer=links",
     img: "/links/5.webp",
   },
   // {
@@ -35,17 +35,17 @@ const links = [
   // },
   {
     name: "Página da Amazon de Carolina Procaci ",
-    url: "https://www.amazon.com.br/shop/carolina.procaci?utm_source=bio",
+    url: "https://www.amazon.com.br/shop/carolina.procaci?referrer=links",
     img: "/links/7.webp",
   },
   {
     name: "Meu canal no Youtube",
-    url: "https://www.youtube.com/channel/UCqQ4PyvfWuEIbtiU_aNh0rQ?sub_confirmation=1&utm_source=bio",
+    url: "https://www.youtube.com/channel/UCqQ4PyvfWuEIbtiU_aNh0rQ?sub_confirmation=1&referrer=links",
     img: "/links/8.webp",
   },
   {
     name: "Encontre o Banco de Leite Humano mais próximo de você",
-    url: "https://rblh.fiocruz.br/localizacao-dos-blhs?utm_source=bio",
+    url: "https://rblh.fiocruz.br/localizacao-dos-blhs?referrer=links",
     img: "/links/9.webp",
   },
 ];
