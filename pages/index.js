@@ -14,6 +14,11 @@ const links = [
     img: "/links/2.webp",
   },
   {
+    name: "WeFy Podcast - Parte 1",
+    url: "https://www.youtube.com/watch?v=B_9xthH6at8",
+    img: "/links/8.webp",
+  },
+  {
     name: "Workshop - A Amamentação começa na Gestação",
     url: "https://go.hotmart.com/Y89675102O?dp=1&referrer=links",
     img: "/links/3.webp",
