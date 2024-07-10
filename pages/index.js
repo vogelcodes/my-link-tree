@@ -9,14 +9,19 @@ const links = [
     img: "/links/1.webp",
   },
   {
-    name: "Aula Gratuita 👇<br/>LactoFlow - Aumente a sua produção de leite materno",
+    name: "Aula Gratuita 👇<br/>LactoFlow - Aumente a sua produção de leite",
     url: "https://pv.lactoflow.com.br/?referrer=links",
     img: "/links/2.webp",
   },
   {
+    name: "AmamentaClube",
+    url: "https://members.amamentaclube.com.br/?referrer=links",
+    img: "/links/amc-red.webp",
+  },
+  {
     name: "WeFy Podcast - Parte 1",
     url: "https://www.youtube.com/watch?v=B_9xthH6at8",
-    img: "/links/8.webp",
+    img: "/links/wefy.webp",
   },
   {
     name: "Workshop - A Amamentação começa na Gestação",
@@ -90,7 +95,7 @@ export default function Home() {
                 }`}
                 target="_blank"
               >
-                <div className="bg-blue rounded-md px-2 py-10 border-2 border-green text-cream duration-200 h-16 place-items-center justify-between flex">
+                <div className="bg-blue rounded-md px-2 py-10 border-2 border-green text-cream h-16 duration-200 place-items-center justify-between flex">
                   <Image
                     src={link.img}
                     width={48}
@@ -98,10 +103,10 @@ export default function Home() {
                     alt={`link-${i}`}
                   ></Image>
                   <p
-                    className="font-semibold w-2/3"
+                    className="font-semibold text-balance w-2/3 text-base"
                     dangerouslySetInnerHTML={markup}
                   ></p>
-                  <div></div>
+                  <div className=""></div>
                 </div>
               </a>
             );
