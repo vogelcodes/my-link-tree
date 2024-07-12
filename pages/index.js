@@ -14,7 +14,7 @@ const links = [
     img: "/links/2.webp",
   },
   {
-    name: "AmamentaClube",
+    name: "Veja todas as lives no Amamenta Clube",
     url: "https://members.amamentaclube.com.br/?referrer=links",
     img: "/links/amc-red.webp",
   },
