@@ -19,9 +19,9 @@ const links = [
     img: "/links/amc-red.webp",
   },
   {
-    name: "WeFy Podcast - Parte 1",
-    url: "https://www.youtube.com/watch?v=B_9xthH6at8",
-    img: "/links/wefy.webp",
+    name: "E-book Guia de Retorno ao Trabalho SEM Desmame",
+    url: "https://go.hotmart.com/B89175649F?dp=1&referrer=links",
+    img: "/links/4.webp",
   },
   {
     name: "Workshop - A Amamentação começa na Gestação",
@@ -29,14 +29,14 @@ const links = [
     img: "/links/3.webp",
   },
   {
-    name: "E-book Guia de Retorno ao Trabalho SEM Desmame",
-    url: "https://go.hotmart.com/B89175649F?dp=1&referrer=links",
-    img: "/links/4.webp",
-  },
-  {
     name: "Workshop - Desmame Gentil: Toda Amamentação tem seu Fim",
     url: "https://hotmart.com/pt-br/marketplace/produtos/workshop-toda-amamentacao-tem-seu-fim/C89898767H?referrer=links",
     img: "/links/5.webp",
+  },
+  {
+    name: "WeFy Podcast - Parte 1",
+    url: "https://www.youtube.com/watch?v=B_9xthH6at8",
+    img: "/links/wefy.webp",
   },
   // {
   //   name: "Cupom de Desconto para utilizar na Lackto: procaci ",
