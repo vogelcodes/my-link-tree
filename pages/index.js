@@ -16,7 +16,7 @@ const links = [
   {
     name: "Veja todas as lives no Amamenta Clube",
     url: "https://members.amamentaclube.com.br/?referrer=links",
-    img: "/links/amc-red.webp",
+    img: "/links/amc-white.webp",
   },
   {
     name: "E-book Guia de Retorno ao Trabalho SEM Desmame",
