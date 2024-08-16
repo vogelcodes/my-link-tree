@@ -4,7 +4,7 @@ import { useSearchParams } from "next/navigation";
 
 const links = [
   {
-    name: "Agende um consultoria comigo",
+    name: "Agende uma consultoria comigo",
     url: "https://wa.me/5521978001294?text=Oi%2C+tudo+bem%3F+Eu+gostaria+de+agendar+uma+consultoria.",
     img: "/links/1.webp",
   },
