@@ -5,7 +5,7 @@ import { useSearchParams } from "next/navigation";
 const links = [
   {
     name: "Workshop - Meu Estoque de Leite Materno",
-    url: "https://pay.hotmart.com/T95371072E?off=gtczmgy8",
+    url: "https://go.hotmart.com/T95371072E",
     img: "/links/WS.webp",
   },
   {
