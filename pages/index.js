@@ -3,11 +3,11 @@ import Image from "next/image";
 import { useSearchParams } from "next/navigation";
 
 const links = [
-  {
-    name: "Workshop - Meu Estoque de Leite Materno",
-    url: "https://go.hotmart.com/T95371072E?referrer=links",
-    img: "/links/WS.webp",
-  },
+  // {
+  //   name: "Workshop - Meu Estoque de Leite Materno",
+  //   url: "https://go.hotmart.com/T95371072E?referrer=links",
+  //   img: "/links/WS.webp",
+  // },
   {
     name: "Agende uma consultoria comigo",
     url: "https://wa.me/5521978001294?text=Oi%2C+tudo+bem%3F+Eu+gostaria+de+agendar+uma+consultoria.",
