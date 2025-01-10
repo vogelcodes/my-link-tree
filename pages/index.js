@@ -5,7 +5,7 @@ import { useSearchParams } from "next/navigation";
 const links = [
   // {
   //   name: "Workshop - Meu Estoque de Leite Materno",
-  //   url: "https://go.hotmart.com/T95371072E?referrer=links",
+  //   url: "https://go.hotmart.com/T95371072E",
   //   img: "/links/WS.webp",
   // },
   {
@@ -15,28 +15,33 @@ const links = [
   },
   {
     name: "Aula Gratuita 👇<br/>LactoFlow - Aumente a sua produção de leite",
-    url: "https://pv.lactoflow.com.br/?referrer=links",
+    url: "https://pv.lactoflow.com.br/",
     img: "/links/2.webp",
+    getParams: true,
   },
   {
     name: "Veja todas as lives no Amamenta Clube",
-    url: "https://members.amamentaclube.com.br/?referrer=links",
+    url: "https://members.amamentaclube.com.br/",
     img: "/links/amc-white.webp",
+    getParams: true,
   },
   {
     name: "E-book Guia de Retorno ao Trabalho SEM Desmame",
-    url: "https://go.hotmart.com/B89175649F?dp=1&referrer=links",
+    url: "https://go.hotmart.com/B89175649F?dp=1",
     img: "/links/4.webp",
+    getParams: true,
   },
   {
     name: "Workshop - A Amamentação começa na Gestação",
-    url: "https://go.hotmart.com/Y89675102O?dp=1&referrer=links",
+    url: "https://go.hotmart.com/Y89675102O?dp=1",
     img: "/links/3.webp",
+    getParams: true,
   },
   {
     name: "Workshop - Desmame Gentil: Toda Amamentação tem seu Fim",
-    url: "https://hotmart.com/pt-br/marketplace/produtos/workshop-toda-amamentacao-tem-seu-fim/C89898767H?referrer=links",
+    url: "https://hotmart.com/pt-br/marketplace/produtos/workshop-toda-amamentacao-tem-seu-fim/C89898767H",
     img: "/links/5.webp",
+    getParams: true,
   },
   {
     name: "Travesseiro de Corpo IWS Snow® Body<br/>Cupom: carolinaprocaci",
@@ -60,12 +65,12 @@ const links = [
   // },
   {
     name: "Página da Amazon de Carolina Procaci ",
-    url: "https://www.amazon.com.br/shop/carolina.procaci?referrer=links",
+    url: "https://www.amazon.com.br/shop/carolina.procaci",
     img: "/links/7.webp",
   },
   {
     name: "Meu canal no Youtube",
-    url: "https://www.youtube.com/channel/UCqQ4PyvfWuEIbtiU_aNh0rQ?sub_confirmation=1&referrer=links",
+    url: "https://www.youtube.com/channel/UCqQ4PyvfWuEIbtiU_aNh0rQ?sub_confirmation=1",
     img: "/links/8.webp",
   },
   {
@@ -75,7 +80,7 @@ const links = [
   },
   {
     name: "Encontre o Banco de Leite Humano mais próximo de você",
-    url: "https://rblh.fiocruz.br/localizacao-dos-blhs?referrer=links",
+    url: "https://rblh.fiocruz.br/localizacao-dos-blhs",
     img: "/links/9.webp",
   },
 ];
@@ -111,7 +116,11 @@ export default function Home() {
               <a
                 key={i}
                 href={`${link.url}${
-                  searchParams != "" ? `&${searchParams}` : ""
+                  searchParams != "" && link.getParams
+                    ? link.url.includes("?")
+                      ? `&${searchParams}`
+                      : `?${searchParams}`
+                    : ""
                 }`}
                 target="_blank"
               >
