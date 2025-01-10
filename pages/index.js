@@ -39,9 +39,19 @@ const links = [
     img: "/links/5.webp",
   },
   {
-    name: "WeFy Podcast - Parte 1",
-    url: "https://www.youtube.com/watch?v=B_9xthH6at8",
-    img: "/links/wefy.webp",
+    name: "Travesseiro de Corpo IWS Snow® Body<br/>Cupom: carolinaprocaci",
+    url: "https://www.iwannasleep.com.br/products/travesseiro-de-corpo-iws-snow-body?utm_source=Carolina%20Garrido%20Procaci&utm_medium=referral&utm_campaign=Carolina%20Procaci-%20Snow%20Body%201%2F3",
+    img: "/links/snow.webp",
+  },
+  {
+    name: "Lackto - Joia de Leite Materno<br/>Cupom: procaci",
+    url: "https://www.lackto.com.br/pages/joia-brinco-berloquepromo?bg_ref=D8S5tgy7Mh",
+    img: "/links/lackto.webp",
+  },
+  {
+    name: "Potes para Leite Materno, Bolsas Térmicas e muito mais<br/>Cupom: supercarolina",
+    url: "https://www.supermamae.com.br/",
+    img: "/links/supermamae.webp",
   },
   // {
   //   name: "Cupom de Desconto para utilizar na Lackto: procaci ",
@@ -57,6 +67,11 @@ const links = [
     name: "Meu canal no Youtube",
     url: "https://www.youtube.com/channel/UCqQ4PyvfWuEIbtiU_aNh0rQ?sub_confirmation=1&referrer=links",
     img: "/links/8.webp",
+  },
+  {
+    name: "WeFy Podcast - Parte 1",
+    url: "https://www.youtube.com/watch?v=B_9xthH6at8",
+    img: "/links/wefy.webp",
   },
   {
     name: "Encontre o Banco de Leite Humano mais próximo de você",
