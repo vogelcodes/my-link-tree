@@ -20,6 +20,12 @@ const links = [
     getParams: true,
   },
   {
+    name: "Se inscreva para a próxima LIVE ✍️",
+    url: "https://www.tiktok.com/live/event/7467899190497312773?enter_from=share_link&share_from_user_id=6920773976621401093",
+    img: "/links/tk-live.webp",
+    getParams: false,
+  },
+  {
     name: "Veja todas as lives no Amamenta Clube",
     url: "https://members.amamentaclube.com.br/",
     img: "/links/amc-white.webp",
