@@ -21,7 +21,7 @@ const links = [
   },
   {
     name: "Se inscreva para a próxima LIVE ✍️",
-    url: "https://www.tiktok.com/live/event/7470505100369199109?enter_from=share_link&share_from_user_id=6920773976621401093",
+    url: "http://procaci.info/tk-live",
     img: "/links/tk-live.webp",
     getParams: false,
   },
