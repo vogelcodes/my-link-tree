@@ -21,7 +21,7 @@ const links = [
   },
   {
     name: "Se inscreva para a próxima LIVE ✍️",
-    url: "http://procaci.info/tk-live",
+    url: "https://procaci.info/tk-live",
     img: "/links/tk-live.webp",
     getParams: false,
   },
@@ -56,7 +56,7 @@ const links = [
   },
   {
     name: "Lackto - Joia de Leite Materno<br/>Cupom: procaci",
-    url: "https://www.lackto.com.br/pages/joia-brinco-berloquepromo?bg_ref=D8S5tgy7Mh",
+    url: "https://www.lackto.com.br/",
     img: "/links/lackto.webp",
   },
   {
