@@ -15,7 +15,7 @@ const links = [
   },
   {
     name: "Aula Gratuita 👇<br/>LactoFlow - Aumente a sua produção de leite",
-    url: "https://pv.lactoflow.com.br/",
+    url: "https://prog.lactoflow.com.br/",
     img: "/links/2.webp",
     getParams: true,
   },
