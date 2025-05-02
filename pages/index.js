@@ -14,7 +14,7 @@ const links = [
     img: "/links/1.webp",
   },
   {
-    name: "Aula Gratuita 👇<br/>LactoFlow - Aumente a sua produção de leite",
+    name: "Aula Gratuita 👇<br/>LactoFlow - 20% OFF - Dia das Mães",
     url: "https://prog.lactoflow.com.br/",
     img: "/links/2.webp",
     getParams: true,
