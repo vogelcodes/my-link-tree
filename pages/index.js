@@ -19,12 +19,12 @@ const links = [
     img: "/links/2.webp",
     getParams: true,
   },
-  {
-    name: "Se inscreva para a próxima LIVE ✍️",
-    url: "https://procaci.info/tk-live",
-    img: "/links/tk-live.webp",
-    getParams: false,
-  },
+  // {
+  //   name: "Se inscreva para a próxima LIVE ✍️",
+  //   url: "https://procaci.info/tk-live",
+  //   img: "/links/tk-live.webp",
+  //   getParams: false,
+  // },
   {
     name: "Veja todas as lives no Amamenta Clube",
     url: "https://members.amamentaclube.com.br/",
