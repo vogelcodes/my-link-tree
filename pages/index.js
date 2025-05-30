@@ -31,18 +31,18 @@ const links = [
     img: "/links/amc-white.webp",
     getParams: true,
   },
-  {
-    name: "E-book Guia de Retorno ao Trabalho SEM Desmame",
-    url: "https://go.hotmart.com/B89175649F?dp=1",
-    img: "/links/4.webp",
-    getParams: true,
-  },
-  {
-    name: "Workshop - A Amamentação começa na Gestação",
-    url: "https://go.hotmart.com/Y89675102O?dp=1",
-    img: "/links/3.webp",
-    getParams: true,
-  },
+  // {
+  //   name: "E-book Guia de Retorno ao Trabalho SEM Desmame",
+  //   url: "https://go.hotmart.com/B89175649F?dp=1",
+  //   img: "/links/4.webp",
+  //   getParams: true,
+  // },
+  // {
+  //   name: "Workshop - A Amamentação começa na Gestação",
+  //   url: "https://go.hotmart.com/Y89675102O?dp=1",
+  //   img: "/links/3.webp",
+  //   getParams: true,
+  // },
   {
     name: "Workshop - Desmame Gentil: Toda Amamentação tem seu Fim",
     url: "https://hotmart.com/pt-br/marketplace/produtos/workshop-toda-amamentacao-tem-seu-fim/C89898767H",
