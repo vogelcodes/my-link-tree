@@ -25,12 +25,12 @@ const links = [
   //   img: "/links/tk-live.webp",
   //   getParams: false,
   // },
-  {
-    name: "Veja todas as lives no Amamenta Clube",
-    url: "https://members.amamentaclube.com.br/",
-    img: "/links/amc-white.webp",
-    getParams: true,
-  },
+  // {
+  //   name: "Veja todas as lives no Amamenta Clube",
+  //   url: "https://members.amamentaclube.com.br/",
+  //   img: "/links/amc-white.webp",
+  //   getParams: true,
+  // },
   // {
   //   name: "E-book Guia de Retorno ao Trabalho SEM Desmame",
   //   url: "https://go.hotmart.com/B89175649F?dp=1",
