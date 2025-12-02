@@ -14,8 +14,8 @@ const links = [
     img: "/links/1.webp",
   },
   {
-    name: "LactoBlack -25 👇<br/>LactoFlow",
-    url: "https://prog.lactoflow.com.br/bf-25",
+    name: "Aula Gratuita 👇<br/>LactoFlow",
+    url: "https://prog.lactoflow.com.br/",
     img: "/links/2.webp",
     getParams: true,
   },
