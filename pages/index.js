@@ -19,6 +19,12 @@ const links = [
     img: "/links/2.webp",
     getParams: true,
   },
+  {
+    name: "Live - Segredos de um 👇<br/>estoque de SUCESSO",
+    url: "https://prog.lactoflow.com.br/aulas/segredos-estoque-sucesso",
+    img: "/links/2.webp",
+    getParams: true,
+  },
   // {
   //   name: "Se inscreva para a próxima LIVE ✍️",
   //   url: "https://procaci.info/tk-live",
