@@ -8,11 +8,11 @@ const links = [
   //   url: "https://go.hotmart.com/T95371072E",
   //   img: "/links/WS.webp",
   // },
-  {
-    name: "Agende uma consultoria comigo",
-    url: "https://wa.me/552139554134?text=Oi%2C+tudo+bem%3F+Eu+gostaria+de+agendar+uma+consultoria.",
-    img: "/links/1.webp",
-  },
+  // {
+  //   name: "Agende uma consultoria comigo",
+  //   url: "https://wa.me/552139554134?text=Oi%2C+tudo+bem%3F+Eu+gostaria+de+agendar+uma+consultoria.",
+  //   img: "/links/1.webp",
+  // },
   {
     name: "Aula Gratuita 👇<br/>LactoFlow",
     url: "https://prog.lactoflow.com.br/",
